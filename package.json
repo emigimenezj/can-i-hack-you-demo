@@ -1,0 +1,35 @@
+{
+  "name": "can-i-hack-you-demo",
+  "version": "1.0.0",
+  "description": "Educational security demo showing how installing dependencies or opening a repository can trigger code execution.",
+  "private": true,
+  "author": "Emiliano Maximiliano Gimenez Jofre",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "preinstall": "node src/attacks/preinstall.js",
+    "postinstall": "node src/attacks/postinstall.js",
+    "prepare": "node src/attacks/prepare.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emigimenezj/can-i-hack-you-demo.git"
+  },
+  "keywords": [
+    "security",
+    "npm",
+    "supply-chain",
+    "malicious-repo-demo",
+    "educational"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/emigimenezj/can-i-hack-you-demo/issues"
+  },
+  "homepage": "https://github.com/emigimenezj/can-i-hack-you-demo#readme",
+  "devDependencies": {
+    "eslint": "10.1.0"
+  }
+}
