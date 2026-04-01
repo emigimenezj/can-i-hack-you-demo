@@ -16,13 +16,13 @@ El demo genera eventos simulados y la plataforma los muestra en vivo usando un S
 Este repositorio permite reproducir 3 tipos de ataques simulados:
 
 1. **npm lifecycle scripts**
-Ejecucion automatica en `preinstall`, `postinstall` y `prepare`.
+   Ejecucion automatica en `preinstall`, `postinstall` y `prepare`.
 
 2. **Plugin de ESLint**
-Ejecucion automatica de codigo al analizar archivos.
+   Ejecucion automatica de codigo al analizar archivos.
 
 3. **Tarea automatica de VSCode**
-Ejecucion automatica al abrir el proyecto mediante configuracion de workspace.
+   Ejecucion automatica al abrir el proyecto mediante configuracion de workspace.
 
 ## Requisitos
 
